@@ -628,6 +628,7 @@ dependencies = [
 [[package]]
 name = "fts-encrypted"
 version = "0.1.0"
+source = "git+https://github.com/riley-ashton/fts-encrypted#25f5d015b7a3c860956eec624f47dd6412eff9d9"
 dependencies = [
  "aes",
  "bitpacking",

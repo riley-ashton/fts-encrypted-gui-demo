@@ -8,7 +8,7 @@ version = "0.1.0"
 
 [dependencies]
 dioxus = {version = "0.2.4", features = ["desktop"]}
-fts-encrypted = {path = "../fts-encrypted", features = ["uuids"]}
+fts-encrypted = {git = "https://github.com/riley-ashton/fts-encrypted", features = ["uuids"]}
 futures = "0.3.19"
 futures-channel = "0.3.19"
 secrecy = "0.8.0"
