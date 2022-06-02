@@ -1,0 +1,17 @@
+[package]
+edition = "2021"
+name = "fts-encrypted-gui-demo"
+publish = false
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = {version = "0.2.4", features = ["desktop"]}
+fts-encrypted = {path = "../fts-encrypted", features = ["uuids"]}
+futures = "0.3.19"
+futures-channel = "0.3.19"
+secrecy = "0.8.0"
+sled = "0.34.7"
+tokio = "1.18.2"
+uuid = {version = "0.8.2", features = ["v4"]}
